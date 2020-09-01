@@ -49,5 +49,5 @@ def test_add_TypeError():
         calculator.add("Hello", 2)
 
 def test_add_ZeroDivisionError():
-    with pytest.raises(ZeroDivisionError):
+    with pytest.raises(TypeError):
         calculator.divide(3, 0)
