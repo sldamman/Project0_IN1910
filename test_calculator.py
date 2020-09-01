@@ -50,4 +50,4 @@ def test_add_TypeError():
 
 def test_add_ZeroDivisionError():
     with pytest.raises(ZeroDivisionError):
-        calculator.divide(3, 1)
+        calculator.divide(3, 0)
